@@ -1,0 +1,33 @@
+.footer-container {
+    padding: 1em 2em;
+}
+
+.footer-container a {
+    font-weight: 500;
+}
+
+.footer-subcontainer {
+    position: relative;
+}
+
+.footer-image {
+    position: absolute;
+    left: 0;
+}
+
+.footer-logo-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-image {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-container a {
+        line-height: 2.5em;
+    }
+}

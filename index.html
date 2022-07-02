@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home - TeamBond</title>
+
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/logo_symbol.svg">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        // $(function () {
+        //     $("#headerContent").load("./components/header.html");
+        // });
+        // $(function () {
+        //     $("#footerContent").load("./components/footer.html");
+        // });
+    </script>
+    <style>
+        .tabs-container {
+            padding-top: 0px!important
+        }
+        .background-circle {
+            left: 15vw;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headerContent" class="header-container">
+        <div class="d-flex flex-row flex-wrap justify-content-between">
+            <div class="d-flex flex-row flex-wrap align-items-center">
+                <a href="./index.html" class="hover pe-4"><img src="./img/logo_dark.svg"></a>
+                <a href="./components/employers.html" class="hover link px-4 semi-bold">Employers</a>
+                <a href="./components/jobs.html" class="hover link px-4 semi-bold">Jobs</a>
+                <a href="javascript: void(0)" class="hover link px-4 semi-bold">Pricing</a>
+                <a href="javascript: void(0)" class="hover link px-4 semi-bold">Resources</a>
+                <a href="javascript: void(0)" class="hover link px-4 semi-bold">About Us</a>
+            </div>
+            <div class="d-flex flex-row flex-wrap align-items-center">
+                <a href="" class="link px-4 semi-bold">Log In</a>
+                <button class="primary-button button-shadow header-button">Create free account</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- First view after load -->
+    <div class="d-flex flex-md-row flex-column align-items-center home-container">
+        <div class="home-left-section pe-md-4">
+            <img src="./img/logo_symbol.svg" class="home-container-logo d-none d-md-block mb-md-4" width="55px" height="55px">
+            <h1 class="display-4">Teams by Design</h1>
+            <p class="dark-gray small-text my-3">TeamBond is a digital workforce management platform that helps companies build, recruit and manage teams
+                using behavioral science in addition to skills, education and experience resulting in the best teams.
+            </p>
+            <button class="primary-button button-shadow mt-3">Create free account</button>
+        </div>
+        <div class="home-right-section">
+            <img src="./img/home/image_3.png" class="home-image">
+        </div>
+        <div class="background-circle"></div>
+    </div>
+
+    <div class="goals-container d-flex flex-md-row flex-column">
+        <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+            <div class="big-square-mark mb-4"></div>
+            <div class="ms-4 ms-md-0">
+                <h6 class="small-text">Trying to get the best from a team?</h6>
+                <p class="extra-small-text">The best and most productive teams are harmonious and work well together. TeamBond gives, you
+                    suggestions on how to improve your team.</p>
+            </div>
+
+        </div>
+        <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+            <div class="big-square-mark mb-4"></div>
+            <div class="ms-4 ms-md-0">
+                <h6 class="small-text">Looking for a new job?</h6>
+                <p class="extra-small-text">Fullfilling work is one of the most important things in life, TeamBond helps you find a job which
+                    fits your personality, as well as your skills</p>
+            </div>
+        </div>
+        <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+            <div class="big-square-mark mb-4"></div>
+            <div class="ms-4 ms-md-0">
+                <h6 class="small-text">Trying to hire motivated people?</h6>
+                <p class="extra-small-text">TeamBond provides a faster, organized recruiting process that allows you to hire the whole team
+                    or individuals to improve your existing team.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tab headings -->
+    <div class="nav nav-tabs custom-nav-tabs d-flex justify-content-center flex-row" id="myTab" role="tablist">
+        <button class="nav-link active p-4" data-bs-toggle="tab" data-bs-target="#tab1"
+            type="button" role="tab">Managing teams/organizations</button>
+        <button class="nav-link p-4" data-bs-toggle="tab" data-bs-target="#tab2"
+            type="button" role="tab">Looking for a new job</button>
+    </div>
+
+    <div class="tab-content" id="myTabContent">
+        <!-- Tab 1 -->
+        <div class="pink-background tabs-container tab-pane fade show active" id="tab1" role="tabpanel">
+            <div
+                class="container tab-content d-flex flex-column flex-md-row align-items-md-center flex-custom-space-between py-4 py-md-5">
+                <div class="col-md-6">
+                    <div class="square-mark"></div>
+                    <h3 class="pt-4 pb-4">Build team</h3>
+                    <p>TeamBond makes recommendations to current, transitional and future teams based on skills,
+                        background
+                        and pre-selected traits, allowing the best fit candidates to be considered for the team.
+                        <br /><br />
+                        Armed with this information, employers are able to improve their existing teams, build
+                        transitional
+                        teams during company-wide reorganizations, and create and hire new teams to solve complex
+                        projects
+                    </p>
+                    <a class="link primary-color bold" href="">Learn more</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/home/image_1.png" class="subsection-image">
+                </div>
+            </div>
+
+            <div
+                class="container tab-content d-flex flex-column flex-md-row align-items-md-center flex-custom-space-between py-4 py-md-5">
+                <div class="col-md-6 order-md-2">
+                    <div class="square-mark"></div>
+                    <h3 class="pt-4 pb-4">Recruit team</h3>
+                    <p>Recruit and hire only the best team based on skills, education, and experience PLUS personality,
+                        character and motivation. TeamBond identifies the best-fit talent for teams, revolutionizing how
+                        companies recuit and hire their workforce
+                    </p>
+                    <a class="link primary-color bold" href="">Learn more</a>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img src="./img/home/image_2.png" class="subsection-image">
+                </div>
+            </div>
+
+            <div
+                class="container tab-content d-flex flex-column flex-md-row align-items-md-center flex-custom-space-between py-4 py-md-5">
+                <div class="col-md-6">
+                    <div class="square-mark"></div>
+                    <h3 class="pt-4 pb-4">Manage team</h3>
+                    <p>Optimize your workforce by ensuring you have the best teams. By knowing who the best fit workers
+                        for a team are, TeamBond allows employers to effectively manage their teams ensuring goals are
+                        met and projects are successfully completed
+                    </p>
+                    <a class="link primary-color bold" href="">Learn more</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/home/image_2.png" class="subsection-image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2 -->
+        <div class="pink-background tabs-container tab-pane fade" id="tab2" role="tabpanel">
+            <div
+                class="container tab-content d-flex flex-column flex-md-row align-items-md-center flex-custom-space-between py-4 py-md-5">
+                <div class="col-md-6">
+                    <div class="square-mark"></div>
+                    <h3 class="pt-4 pb-4">Find a job</h3>
+                    <p>Find your next job on a dream team. Teams that get along work better together and are more
+                        successful working together. TeamBond changes how workers find their next jobs by recommending
+                        positions on teams that best fit their personality, values, background and skills
+                    </p>
+                    <a class="link primary-color bold" href="">Learn more</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/home/image_1.png" class="subsection-image">
+                </div>
+            </div>
+
+            <div
+                class="container tab-content d-flex flex-column flex-md-row align-items-md-center flex-custom-space-between py-4 py-md-5">
+                <div class="col-md-6 order-md-2">
+                    <div class="square-mark"></div>
+                    <h3 class="pt-4 pb-4">Career pathways</h3>
+                    <p>Career metnorship done right. Have you ever wondered how someone got to their current job?
+                        TeamBond helps guide you to meet your job goals by providing valueable insight in career mapping
+                        by recommending career moves based on your goals.
+                    </p>
+                    <a class="link primary-color bold" href="">Learn more</a>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img src="./img/home/image_2.png" class="subsection-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center ready-section">
+        <h2 class="pb-3">Ready to give it a go?</h2>
+        <button class="gradient-button button-shadow">Create free account</button>
+    </div>
+
+    <!-- footer -->
+    <div id="footerContent">
+        <div class="charcoal-background footer-container">
+            <div class="container-fluid d-flex flex-sm-row flex-column justify-content-center align-items-center footer-subcontainer">
+                <div class="footer-image d-flex flex-row justify-content-center align-items-center m-0 px-4 px-md-0">
+                    <img src="./img/logo_symbol.svg">
+                    <p class="footer-logo-text text-white mb-0 ms-3">TeamBond</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row">
+                    <a href="javascript: void(0)" class="link text-white px-4">Privacy Policy</a>
+                    <a href="javascript: void(0)" class="link text-white px-4">Terms &amp; Conditions</a>
+                    <a href="javascript: void(0)" class="link text-white px-4">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
