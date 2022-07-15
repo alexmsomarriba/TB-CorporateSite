@@ -15,6 +15,7 @@
 
 ul {
     list-style-type: none;
+    width: ;
 }
 
 .menu {
@@ -26,9 +27,11 @@ ul {
   }
   
   .menu > li {
-    margin: 0;
     overflow: hidden;
-    
+    width: auto;
+  }
+
+  .menu > li > a {
   }
   
   .menu-button-container {
@@ -37,7 +40,7 @@ ul {
     padding-top: 3.5%;
     width: 30px;
     cursor: pointer;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
