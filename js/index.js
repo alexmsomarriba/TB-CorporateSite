@@ -1,4 +1,4 @@
 function menuToggle() {
-    var firstItem = document.getElementById("firstItem");
-    firstItem.classList.toggle("toggled-menu")
+    var headerContent = document.getElementById("headerContent");
+    headerContent.classList.toggle("toggled-menu");
 }

@@ -15,6 +15,8 @@
 
 ul {
     list-style-type: none;
+    width: 80%;
+    justify-content: space-between;
 }
 
 .menu {
@@ -26,9 +28,8 @@ ul {
   }
   
   .menu > li {
-    margin: 0;
     overflow: hidden;
-    
+    width: auto;
   }
   
   .menu-button-container {
@@ -37,7 +38,7 @@ ul {
     padding-top: 3.5%;
     width: 30px;
     cursor: pointer;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -56,6 +57,7 @@ ul {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    margin-bottom: 2%;
   }
 
   .menu-button::before {
@@ -82,7 +84,7 @@ ul {
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .menu-button-container {
       display: flex;
     }
@@ -95,10 +97,6 @@ ul {
       width: 100%;
       justify-content: center;
       align-items: center;
-    }
-    
-    #menu-toggle:checked ~ .menu {
-        padding-bottom: 50%;
     }
 
     #menu-toggle ~ .menu li {
@@ -114,13 +112,13 @@ ul {
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    #menu-toggle:checked ~ .menu li button {
+    #menu-toggle:checked ~ .menu li .header-button {
         background-color: transparent;
         box-shadow: none;
         height: 2.5em;
-        padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
         font-size: 1.125rem !important;
+        padding: 0;
       }
 
     .menu > li {
@@ -131,18 +129,25 @@ ul {
       width: 100%;
       color: white;
       background-color: gray;
+      z-index: 1;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
+
+    .header-button:hover {
+        color: black;
+    }
   }
 
 .toggled-menu {
-    padding-top: 18rem !important;
+    padding-bottom: 16.9rem !important;
 }
 
 .header-button {
     padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white
 }
 
 .menu-icon > div {

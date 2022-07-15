@@ -103,10 +103,10 @@ button {
 
 .background-circle {
     background-color: #762A7B;
-    z-index: -1;
+    z-index: -2;
     opacity: 0.04;
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     position: absolute;
     border-radius: 50%;
     left: 25vw;
@@ -117,7 +117,7 @@ button {
     .background-circle {
         left: initial;
         bottom: initial;
-        width: 50vw!important;
+        width: 40vw!important;
         top: 0;
         right: 15vw;
     }
