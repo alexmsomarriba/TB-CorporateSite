@@ -26,8 +26,9 @@ ul {
   }
   
   .menu > li {
-    margin: 0 1rem;
+    margin: 0;
     overflow: hidden;
+    
   }
   
   .menu-button-container {
@@ -238,6 +239,7 @@ ul {
     }
     .goals-container {
         padding: 5%;
+        padding-top: 7.5%;
     }
     .goals-container > div {
         padding: 0%;

@@ -24,6 +24,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <script src="../js/index.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -36,23 +38,25 @@
     <!-- header -->
     <div id="headerContent" class="header-container">
         <div class="d-flex flex-row flex-wrap justify-content-between">
-            <div class="d-flex flex-row flex-wrap align-items-center">
-                <a href="./../index.html" class="hover pe-4"><img src="./../img/logo_dark.svg"></a>
-                <a href="./employers.html" class="hover link px-4 semi-bold">Employers</a>
-                <a href="./jobs.html" class="hover link px-4 semi-bold active-header-link">Jobs</a>
-                <a href="javascript: void(0)" class="hover link px-4 semi-bold">Pricing</a>
-                <a href="javascript: void(0)" class="hover link px-4 semi-bold">Resources</a>
-                <a href="javascript: void(0)" class="hover link px-4 semi-bold">About Us</a>
-            </div>
-            <div class="d-flex flex-row flex-wrap align-items-center">
-                <a href="" class="link px-4 semi-bold">Log In</a>
-                <button class="primary-button button-shadow header-button">Create free account</button>
-            </div>
+            <a href="../index.html" class="hover pe-4"><img src="../img/logo_dark.svg"></a>
+            <input id="menu-toggle" type="checkbox" onclick="menuToggle()"/>
+            <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+            <ul class="d-flex flex-row flex-wrap align-items-center menu">
+                <li><a href="employers.html" class="hover link px-4 semi-bold">Employers</a></li>
+                <li><a href="jobs.html" class="hover link px-4 semi-bold">Jobs</a></li>
+                <li><a href="javascript: void(0)" class="hover link px-4 semi-bold">Pricing</a></li>
+                <li><a href="javascript: void(0)" class="hover link px-4 semi-bold">Resources</a></li>
+                <li><a href="javascript: void(0)" class="hover link px-4 semi-bold">About Us</a></li>
+                <li> <a href="" class="link px-4 semi-bold">Log In</a> </li>
+                <li><button class="primary-button button-shadow header-button">Create free account</button></li>
+            </ul>
         </div>
     </div>
 
     <!-- First view after load -->
-    <div class="d-flex flex-md-row flex-column align-items-center home-container">
+    <div class="d-flex flex-md-row flex-column align-items-center home-container" id="firstItem">
         <div class="home-left-section pe-md-4">
             <img src="./../img/logo_symbol.svg" class="home-container-logo d-none d-md-block mb-md-4" width="55px"
                 height="55px">
