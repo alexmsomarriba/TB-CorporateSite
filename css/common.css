@@ -113,7 +113,7 @@ button {
     bottom: 10%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .background-circle {
         left: initial;
         bottom: initial;

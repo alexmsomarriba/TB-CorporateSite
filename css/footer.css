@@ -11,7 +11,7 @@
 }
 
 .footer-image {
-    position: absolute;
+    position: relative;
     left: 0;
 }
 
@@ -20,14 +20,19 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width: 800px) {
-    .footer-image {
-        position: relative;
-    }
+.footer-text-box {
+    display: block;
+    text-align: center;
 }
 
 @media only screen and (max-width: 576px) {
-    .footer-container a {
+    .footer-text-box {
+        display: block;
         line-height: 2.5em;
+        text-align: center;
+    }
+
+    .footer-text-box a {
+        padding: 0% 4%;
     }
 }
