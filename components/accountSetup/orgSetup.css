@@ -1,0 +1,499 @@
+.web-app-enter-org-details-industrycomplete-web-app-enter-org-details-industrycomplete {
+    width: 1440px;
+    height: 907px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    background-color: var(--dl-color-default-whiteebaee);
+  }
+  .web-app-enter-org-details-industrycomplete-text {
+    top: 105px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    width: 560px;
+    height: auto;
+    position: absolute;
+    flex-grow: 1;
+    font-size: 36px;
+    align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600px;
+    line-height: 40px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-group967 {
+    top: 757px;
+    left: 436px;
+    width: 560px;
+    height: 44px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-svg {
+    width: 560;
+    height: 44;
+    position: absolute;
+  }
+  .web-app-enter-org-details-industrycomplete-text01 {
+    top: 9.33203125px;
+    left: 98.96222686767578px;
+    color: var(--dl-color-default-darkgray34085);
+    width: 367px;
+    height: auto;
+    position: absolute;
+    flex-grow: 1;
+    font-size: 14px;
+    align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400px;
+    line-height: 18px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text02 {
+    top: 368px;
+    left: 460px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text03 {
+    top: 262px;
+    left: 460px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text04 {
+    top: 474px;
+    left: 460px;
+    color: var(--dl-color-default-grey38f71);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text05 {
+    top: 580px;
+    left: 460px;
+    color: var(--dl-color-default-grey38f71);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text06 {
+    top: 686px;
+    left: 460px;
+    color: var(--dl-color-default-grey38f71);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text07 {
+    top: 220px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text08 {
+    top: 326px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text09 {
+    top: 538px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text10 {
+    top: 644px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-text11 {
+    top: 432px;
+    left: 436px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    text-align: left;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1104 {
+    top: 352px;
+    left: 436px;
+    width: 560px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(199, 199, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1108 {
+    top: 246px;
+    left: 436px;
+    width: 560px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(199, 199, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1106 {
+    top: 564px;
+    left: 436px;
+    width: 560px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(199, 199, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1107 {
+    top: 670px;
+    left: 436px;
+    width: 560px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(199, 199, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1105 {
+    top: 458px;
+    left: 436px;
+    width: 560px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(199, 199, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  .web-app-enter-org-details-industrycomplete-group1575 {
+    top: 364px;
+    left: 952px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group1563 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle11061 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-svg1 {
+    top: 7px;
+    left: 7px;
+    width: 19;
+    height: 18;
+    position: absolute;
+  }
+  .web-app-enter-org-details-industrycomplete-group1578 {
+    top: 470px;
+    left: 952px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group15631 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle11062 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-svg2 {
+    top: 7px;
+    left: 7px;
+    width: 19;
+    height: 18;
+    position: absolute;
+  }
+  .web-app-enter-org-details-industrycomplete-dark-mode-toggle-dark {
+    top: 843px;
+    left: 1352px;
+    width: 64px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1066 {
+    top: 0px;
+    left: 0px;
+    width: 64px;
+    height: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: var(--dl-color-default-charcoalf2717);
+  }
+  .web-app-enter-org-details-industrycomplete-svg3 {
+    top: 4px;
+    left: 4px;
+    width: 24;
+    height: 24;
+    position: absolute;
+  }
+  .web-app-enter-org-details-industrycomplete-group1574 {
+    top: 4px;
+    left: 32px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1109 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group {
+    top: 5px;
+    left: 5px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group1577 {
+    top: 576px;
+    left: 952px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group15632 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle11063 {
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-svg4 {
+    top: 7px;
+    left: 7px;
+    width: 19;
+    height: 18;
+    position: absolute;
+  }
+  .web-app-enter-org-details-industrycomplete-rectangle1 {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 72px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .web-app-enter-org-details-industrycomplete-team-bond-symbol1 {
+    top: 24px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group1 {
+    top: -6.729214191436768px;
+    left: -6.398842811584473px;
+    width: 37px;
+    height: 37.453128814697266px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-group2 {
+    top: 24.295692443847656px;
+    left: 0px;
+    width: 28px;
+    height: 26.31489372253418px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-layer1 {
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .web-app-enter-org-details-industrycomplete-text12 {
+    top: 26px;
+    left: 60px;
+    color: var(--dl-color-default-charcoalf2717);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 600px;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
