@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jobs - TeamBond</title>
+
+    <link href="./../css/header.css" rel="stylesheet">
+    <link href="./../css/common.css" rel="stylesheet">
+    <link href="./../css/footer.css" rel="stylesheet">
+    <link href="./../css/aboutus.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./../img/logo_symbol.svg">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="./../js/header.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headerContent" class="header-container d-none d-sm-block">
+        <div class="d-sm-flex flex-row flex-wrap justify-content-between">
+            <div class="d-flex flex-row flex-wrap align-items-center">
+                <a href="./../index.html" class="hover pe-4"><img src="./../img/logo_dark.svg"></a>
+                <a href="./employers.html" class="hover link px-4 semi-bold">Employers</a>
+                <a href="./jobs.html" class="hover link px-4 semi-bold">Jobs</a>
+                <div class="d-none d-md-flex">
+                    <!-- <a href="javascript: void(0)" class="hover link px-4 semi-bold">Pricing</a>
+                    <a href="javascript: void(0)" class="hover link px-4 semi-bold">Resources</a> -->
+                    <a href="./aboutus.html" class="hover link px-4 semi-bold active-header-link">About Us</a>
+                    <a href="./contact.html" class="hover link px-4 semi-bold">Contact</a>
+                </div>
+                <div id="moreContainer" class="d-none d-sm-block d-md-none position-relative">
+                    <a id="moreButton" class="hover link semi-bold px-4" onclick="openMenuDropdown()">More</a>
+                    <div id="headerMoreDropdown" class="header-more-dropdown position-absolute flex-column">
+                        <!-- <a href="javascript: void(0)" class="hover link px-4">Pricing</a>
+                        <a href="javascript: void(0)" class="hover link px-4">Resources</a> -->
+                        <a href="./aboutus.html" class="hover link px-4 semi-bold active-header-link">About Us</a>
+                        <a href="./contact.html" class="hover link px-4">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="d-flex flex-row flex-wrap align-items-center">
+                <a href="" class="link px-4 semi-bold">Log In</a>
+                <button class="primary-button button-shadow header-button">Create free account</button>
+            </div> -->
+        </div>
+    </div>
+    <div id="headerSmallContent" class="d-block d-sm-none">
+        <div class="header-small-container">
+            <div class="d-flex flex-row justify-content-between align-items-center">
+                <a id="expandHeaderIcon" class="hover pe-4" onclick="expandHeader()"><img
+                        src="./../img/hamburger_icon.svg"></a>
+                <a id="collapseHeaderIcon" class="hover pe-4" onclick="collapseHeader()"><img
+                        src="./../img/close_icon.svg"></a>
+                <a href="./../index.html" class="hover"><img src="./../img/logo_dark.svg"></a>
+                <!-- <a href="" class="link semi-bold primary-color">Log In</a> -->
+            </div>
+        </div>
+        <div class="header-dropdown-container">
+            <a href="./employers.html" class="hover link">Employers</a>
+            <a href="./jobs.html" class="hover link">Jobs</a>
+            <!-- <a href="javascript: void(0)" class="hover link">Pricing</a>
+            <a href="javascript: void(0)" class="hover link">Resources</a> -->
+            <a href="./aboutus.html" class="hover link semi-bold active-header-link">About Us</a>
+            <a href="./contact.html" class="hover link">Contact</a>
+        </div>
+    </div>
+
+    <div class="custom-container after-header-section">
+        <!-- team -->
+        <div>
+            <h1 class="display-4">Our amazing team</h1>
+
+            <div class="d-flex flex-column flex-sm-row teams-flex-container">
+                <div class="w-100">
+                    <div class="team-image-container mb-4">
+                        <img >
+                    </div>
+                    <div>
+                        <h4>Leila Sinfuego Huynh</h4>
+                        <p>CEO and Co-Founder</p>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <div class="team-image-container mb-4">
+                        <img>
+                    </div>
+                    <div>
+                        <h4>Michael Ritacco</h4>
+                        <p>Advisor and Founder</p>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <div class="team-image-container mb-4">
+                        <img>
+                    </div>
+                    <div>
+                        <h4>Alex Somarriba </h4>
+                        <p>CTO and Co-Founder</p>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <div class="team-image-container mb-4">
+                        <img>
+                    </div>
+                    <div>
+                        <h4>Sourabh Roy</h4>
+                        <p>Advisor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mx-auto aim-heading"><em>We help people find and achieve their full work-life
+                potential.</em>
+        </h2>
+
+        <!-- brand identity -->
+        <div class="mb-5 mt-5">
+            <h3 class="pt-0 pt-sm-4 pb-5 m-0">Our Brand Identity</h3>
+
+            <!-- for bigger screens -->
+            <div class="container align-items-center brand-identity-container mx-auto d-none d-md-block">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="mx-auto big-square-mark mb-4 rounded-circle"></div>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto big-square-mark mb-4 rounded-circle"></div>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto big-square-mark mb-4 rounded-circle"></div>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto big-square-mark mb-4 rounded-circle"></div>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto big-square-mark mb-4 rounded-circle"></div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <h6 class="small-text col">We are Trustworthy</h6>
+                    <h6 class="small-text col">We are Empathetic</h6>
+                    <h6 class="small-text col">We believe in Innovation and Creativity</h6>
+                    <h6 class="small-text col">We believe in Grit</h6>
+                    <h6 class="small-text col">We value Humility in ourselves and our peers</h6>
+                </div>
+                <div class="row text-center">
+                    <p class="extra-small-text col">The TeamBond team believes working in a psychologically safe
+                        environment
+                        fosters growth and innovation. When team members feel safe and trust their colleagues and
+                        partners, they are more open to be collaborating and working together towards a common goal.
+                    </p>
+                    <p class="extra-small-text col">We understand and are empathetic. Our team faced similar problems in
+                        the
+                        workplace and understand what is needed to solve complex problems.</p>
+                    <p class="extra-small-text col">We believe that continuous improvement is essential in a
+                        service-oriented platform. After all, everything around us is always changing. Working in a
+                        positive environment fosters innovation and creativity so that we can continually improve
+                        our
+                        offering. </p>
+                    <p class="extra-small-text col">We were faced with many obstacles when we initially started working
+                        on
+                        TeamBond. But we believed that we had something special to offer and that with hard work and
+                        perseverance, we could really make a difference.</p>
+                    <p class="extra-small-text col">The best teams are about a group of people coming together to solve
+                        a
+                        problem. Without each team member, the same solution would not have been reached. Humility
+                        drives us to focus on the end solution to continuously improve together.</p>
+                </div>
+            </div>
+
+            <!-- for smaller screens -->
+            <div class="brand-identity-container d-flex flex-md-row flex-column align-self-center mx-auto d-block d-md-none">
+                <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+                    <div class="big-square-mark mb-4 rounded-circle"></div>
+                    <div class="ms-4 ms-md-0">
+                        <h6 class="small-text">We are Trustworthy</h6>
+                        <p class="extra-small-text">The TeamBond team believes working in a psychologically safe
+                            environment
+                            fosters growth and innovation. When team members feel safe and trust their colleagues and
+                            partners, they are more open to be collaborating and working together towards a common goal.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+                    <div class="big-square-mark mb-4 rounded-circle"></div>
+                    <div class="ms-4 ms-md-0">
+                        <h6 class="small-text">We are Empathetic</h6>
+                        <p class="extra-small-text">We understand and are empathetic. Our team faced similar problems in
+                            the
+                            workplace and understand what is needed to solve complex problems.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+                    <div class="big-square-mark mb-4 rounded-circle"></div>
+                    <div class="ms-4 ms-md-0">
+                        <h6 class="small-text">We believe in Innovation and Creativity</h6>
+                        <p class="extra-small-text">We believe that continuous improvement is essential in a
+                            service-oriented platform. After all, everything around us is always changing. Working in a
+                            positive environment fosters innovation and creativity so that we can continually improve
+                            our
+                            offering. </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+                    <div class="big-square-mark mb-4 rounded-circle"></div>
+                    <div class="ms-4 ms-md-0">
+                        <h6 class="small-text">We believe in Grit</h6>
+                        <p class="extra-small-text">We were faced with many obstacles when we initially started working
+                            on
+                            TeamBond. But we believed that we had something special to offer and that with hard work and
+                            perseverance, we could really make a difference.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-md-column align-items-start align-items-md-center text-md-center">
+                    <div class="big-square-mark mb-4 rounded-circle"></div>
+                    <div class="ms-4 ms-md-0">
+                        <h6 class="small-text">We value Humility in ourselves and our peers</h6>
+                        <p class="extra-small-text">The best teams are about a group of people coming together to solve
+                            a
+                            problem. Without each team member, the same solution would not have been reached. Humility
+                            drives us to focus on the end solution to continuously improve together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- message -->
+        <div class="d-flex flex-column mt-4">
+            <h3 class="pt-0 pt-sm-4 pb-5 m-0">Message from Leila</h3>
+            <div class="message-container align-self-center">
+                <p>
+                    With a career spanning over two decades in staffing and consulting, I evaluated and provided
+                    talented
+                    workers to some of the largest companies in the world.
+                    <br /><br />
+                    Much to the chagrin of my previous managers, it wasn't about the quick buck or the commission for
+                    me. My
+                    main focus was building long-term relationships. I wanted to work with like-minded professionals to
+                    help
+                    them solve their most complex problems. My theory was if you had strong relationships, business
+                    would
+                    follow. I was right that business would follow. But I was still focusing on placing individuals onto
+                    teams hoping they would fit in with the team after they were placed.
+                    <br /><br />
+                    Clients and colleagues all faced the same issue - where can they build and/or find a top-performing
+                    team
+                    to solve their problems? The staffing, consulting and managed services are billion dollar industries
+                    that profit by providing talent to work at companies. The focus has always been on the individual
+                    worker
+                    to fill a vacant role on a team, not taking into consideration if he/she would be a good addition to
+                    the
+                    team. Consulting and managed services companies try to focus on teams, but still place individuals
+                    onto
+                    teams, hoping for the best outcome where the team works well together. These created teams often
+                    resort
+                    to the 80/20 rule, where 20 percent of the team do all of the work and carry the weight of the
+                    entire
+                    team, which ultimately does not solve the problem of hiring a top-performing team.
+                    <br /><br />
+                    TeamBond set out to solve this problem and change how companies hire talent and more importantly,
+                    where
+                    they can hire teams.
+                    <br /><br />
+                    Good teamwork is essential in all organizations. It isn't a secret that the best performing teams
+                    work
+                    well together and have a synergy - where the combined effect of the team is greater than the sum of
+                    the
+                    individual efforts. Organizations are much more likely to perform well when their people work
+                    effectively as a team. TeamBond solves the problem of who is right for the team by considering
+                    behavioral science in addition to a worker's skills, education and experience. TeamBond is
+                    revolutionizing the staffing and recruitment process, making it easier and quicker for companies to
+                    build teams.
+                    <br /><br />
+                    TeamBond will also bring the best jobs to workers. Only jobs on teams that a worker is a fit for
+                    will be
+                    recommended to the worker, thus streamlining and changing how you find your next role.
+                    <br /><br />
+                    We invite you to experience TeamBond, an online platform that creates Teams by Design.
+                </p>
+                <div class="signature-container">
+                    <p>Leila Sinfuego Huynh (Signature)</p>
+                    <p>CEO and Co-Founder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footerContent">
+        <div class="charcoal-background footer-container">
+            <div class="container-fluid d-flex flex-sm-row flex-column justify-content-center align-items-sm-center footer-subcontainer">
+                <div class="footer-image d-flex flex-row justify-content-sm-center align-items-sm-center m-0 px-sm-4 px-md-0 mb-3 mb-sm-0">
+                    <img src="./../img/logo_symbol.svg">
+                    <p class="footer-logo-text text-white mb-0 ms-3">TeamBond</p>
+                </div>
+                <div class="d-flex flex-column flex-sm-row">
+                    <a href="./privacy_policy.html" class="link text-white px-sm-4">Privacy Policy</a>
+                    <a href="./terms_and_conditions.html" class="link text-white px-sm-4">Terms &amp; Conditions</a>
+                    <a href="javascript: void(0)" class="link text-white px-sm-4">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
