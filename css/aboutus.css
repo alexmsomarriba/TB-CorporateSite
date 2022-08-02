@@ -21,6 +21,14 @@
     margin-right: 0px;
 }
 
+h4{
+    text-align: center;
+}
+
+.role {
+    text-align: center;
+}
+
 .team-image-container {
     background-color: #C4C4C4;
     opacity: 0.2;
