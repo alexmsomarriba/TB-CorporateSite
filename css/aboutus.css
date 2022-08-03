@@ -1,0 +1,90 @@
+.custom-container {
+    padding: 7% 8% 7% 8%;
+}
+
+.message-container {
+    width: 70%;
+    font-size: 1.125rem;
+    border-radius: 12px;
+    padding: 50px 44px;
+    box-shadow: 0px 4px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.teams-flex-container {
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.teams-flex-container > div {
+    margin-right: 28px;
+}
+.teams-flex-container > div:last-child {
+    margin-right: 0px;
+}
+
+h4{
+    text-align: center;
+}
+
+.role {
+    text-align: center;
+}
+
+.team-image-container {
+    background-color: #C4C4C4;
+    opacity: 0.2;
+    border-radius: 12px;
+    height: 200px;
+    /* aspect-ratio: 1/1; */
+    max-height: 200px;
+}
+
+.brand-identity-container {
+    width: 90%!important;
+}
+/* .brand-identity-container > div {
+    margin-right: 28px;
+    flex: 1;
+} */
+/* .brand-identity-container > div:last-child {
+    margin-right: 0px;
+} */
+
+.signature-container {
+    margin-top: 150px;
+}
+
+.aim-heading {
+    width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    /* .brand-identity-container > div{
+        margin-right: 0px;
+    } */
+    .message-container {
+        width: 90%;
+    }
+    .team-image-container {
+        height: auto;
+        max-height: initial;
+        aspect-ratio: 1/1;
+    }
+    .aim-heading {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-container {
+        padding: 7% 32px 7% 32px;
+    }
+    .brand-identity-container {
+        width: 100%;
+    }
+    .message-container {
+        width: 100%;
+    }
+    .teams-flex-container > div {
+        margin-right: 0px;
+    }
+}

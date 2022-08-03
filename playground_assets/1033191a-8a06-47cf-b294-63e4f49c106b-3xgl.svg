@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width='408' height='185' viewBox='0 0 408 185' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<g filter='url(#filter0_dd_91_4458)'>
+<path d='M14 39C14 34.5817 17.5817 31 22 31H180.112C182.567 31 184.886 29.8729 186.402 27.9426L197.355 14.0031C198.956 11.9648 202.044 11.9648 203.645 14.0031L214.598 27.9426C216.114 29.8729 218.433 31 220.888 31H386C390.418 31 394 34.5817 394 39V161C394 165.418 390.418 169 386 169H22C17.5817 169 14 165.418 14 161V39Z' fill='white'/>
+</g>
+<defs>
+<filter id='filter0_dd_91_4458' x='0' y='0.474609' width='408' height='184.525' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+<feFlood flood-opacity='0' result='BackgroundImageFix'/>
+<feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/>
+<feOffset dy='2'/>
+<feGaussianBlur stdDeviation='1.5'/>
+<feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0'/>
+<feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_91_4458'/>
+<feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/>
+<feMorphology radius='4' operator='dilate' in='SourceAlpha' result='effect2_dropShadow_91_4458'/>
+<feOffset dy='2'/>
+<feGaussianBlur stdDeviation='5'/>
+<feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0'/>
+<feBlend mode='normal' in2='effect1_dropShadow_91_4458' result='effect2_dropShadow_91_4458'/>
+<feBlend mode='normal' in='SourceGraphic' in2='effect2_dropShadow_91_4458' result='shape'/>
+</filter>
+</defs>
+</svg>
