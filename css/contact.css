@@ -1,0 +1,32 @@
+.send-button {
+    min-width: 200px;
+}
+
+.contact-info > div {
+    margin-bottom: 40px;
+}
+
+textarea {
+    height: 250px;
+}
+
+.custom-container {
+    padding: 7% 8% 7% 8%;
+}
+
+.form-container {
+    margin-right: 7%;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-container {
+        margin-right: 0%;
+        margin-bottom: 7%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-container {
+        padding: 7% 32px 3% 32px;
+    }
+}
