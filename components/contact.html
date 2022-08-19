@@ -10,6 +10,7 @@
     <link href="../css/header.css" rel="stylesheet">
     <link href="../css/common.css" rel="stylesheet">
     <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
     <link href="../css/contact.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../img/logo_symbol.svg">
 
@@ -36,32 +37,22 @@
 
 <body>
     <!-- header -->
-    <div id="headerContent" class="header-container d-none d-sm-block">
-        <div class="d-sm-flex flex-row flex-wrap justify-content-between">
-            <div class="d-flex flex-row flex-wrap align-items-center">
-                <a href="../index.html" class="hover pe-4"><img src="../img/logo_dark.svg"></a>
-                <a href="employers.html" class="hover link px-4 semi-bold">Employers</a>
-                <a href="jobs.html" class="hover link px-4 semi-bold">Jobs</a>
-                <div class="d-none d-md-flex">
-                    <!-- <a href="javascript: void(0)" class="hover link px-4 semi-bold">Pricing</a>
-                    <a href="javascript: void(0)" class="hover link px-4 semi-bold">Resources</a> -->
-                    <a href="aboutus.html" class="hover link px-4 semi-bold">About Us</a>
-                    <a href="contact.html" class="hover link px-4 semi-bold active-header-link">Contact</a>
-                </div>
-                <div id="moreContainer" class="d-none d-sm-block d-md-none position-relative">
-                    <a id="moreButton" class="hover link semi-bold px-4" onclick="openMenuDropdown()">More</a>
-                    <div id="headerMoreDropdown" class="header-more-dropdown position-absolute flex-column">
-                        <!-- <a href="javascript: void(0)" class="hover link px-4">Pricing</a>
-                        <a href="javascript: void(0)" class="hover link px-4">Resources</a> -->
-                        <a href="aboutus.html" class="hover link px-4">About Us</a>
-                        <a href="contact.html" class="hover link px-4 semi-bold active-header-link">Contact</a>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="d-flex flex-row flex-wrap align-items-center">
-                <a href="" class="link px-4 semi-bold">Log In</a>
-                <button class="primary-button button-shadow header-button">Create free account</button>
-            </div> -->
+    <div id="headerContent" class="header-container">
+        <div class="d-flex flex-row flex-wrap justify-content-between">
+            <a href="../index.html" class="hover pe-4"><img src="../img/logo_dark.svg"></a>
+            <input id="menu-toggle" type="checkbox" onclick="menuToggle()"/>
+            <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+            <ul class="d-flex flex-row flex-wrap align-items-center menu">
+                <li><a href="employers.html" class="hover link semi-bold">Employers</a></li>
+                <li><a href="jobs.html" class="hover link semi-bold">Jobs</a></li>
+                <li><a href="contact.html" class="hover link semi-bold">Contact Us</a></li>
+                <li><a href="javascript: void(0)" class="hover link semi-bold">Resources</a></li>
+                <li><a href="javascript: void(0)" class="hover link semi-bold">About Us</a></li>
+                <li> <a href="" class="link semi-bold">Log In</a> </li>
+                <li><button class="hover primary-button button-shadow header-button">Create free account</button></li>
+            </ul>
         </div>
     </div>
     <div id="headerSmallContent" class="d-block d-sm-none">
