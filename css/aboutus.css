@@ -30,12 +30,20 @@ h4{
 }
 
 .team-image-container {
-    background-color: #C4C4C4;
-    opacity: 0.2;
     border-radius: 12px;
     height: 200px;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 1/1;
     max-height: 200px;
+}
+
+.headshot {
+    margin-left: 80px;
+    height: 200px;
+}
+
+.headshot-a {
+    height: 200px;
+    margin-left: 30px;
 }
 
 .brand-identity-container {
@@ -44,8 +52,8 @@ h4{
 /* .brand-identity-container > div {
     margin-right: 28px;
     flex: 1;
-} */
-/* .brand-identity-container > div:last-child {
+} 
+.brand-identity-container > div:last-child {
     margin-right: 0px;
 } */
 
@@ -58,7 +66,7 @@ h4{
 }
 
 .first-item {
-    
+    margin-top: 5%;
 }
 
 @media only screen and (max-width: 900px) {
