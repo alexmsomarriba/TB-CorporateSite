@@ -32,14 +32,27 @@ h4{
 .team-image-container {
     border-radius: 12px;
     height: 200px;
-    aspect-ratio: 1/1;
     max-height: 200px;
+    display: flex;
+    align-items: center;
 }
 
-.headshot {
-    margin-left: 80px;
-    height: 200px;
+.team-image-container img {
+    height: inherit;
+    width: auto;
+    object-position: center;
+    border: none;
+    border-radius: inherit;
+    aspect-ratio: 1/1;
+    align-self: center;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .headshot-a {
     height: 200px;
